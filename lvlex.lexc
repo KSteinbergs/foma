@@ -1,0 +1,23 @@
+Multichar_Symbols +N +V +Future +Past +Present +3P +Sg +Pl 
+
+LEXICON Root 
+Noun ; 
+Verb ; 
+
+LEXICON Noun 
+cat Ninf; 
+
+LEXICON Verb 
+kļū Vinf;
+aug Vinf;
+brauk Vinf;
+
+LEXICON Ninf
++N+Sg:0 #;
++N+Pl:^s #; ! ^ is our morpheme boundary
+
+LEXICON Vinf
++V:^t #;
++V+Past:^u #;
++V+Future:^šu #;
++V+Present:^u #;
